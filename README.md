@@ -2,7 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To start your own project from this template, run
+
+```bash
+npx create-next-app@latest <project_name_here> --use-np --example https://github.com/aripo99/nextjs-supabase-shadcn-template
+```
+
+To run it locally, start by running the development server:
 
 ```bash
 npm run dev

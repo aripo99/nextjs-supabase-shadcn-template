@@ -40,6 +40,12 @@ function ProfileDropdown() {
                             <span>Dashboard</span>
                         </DropdownMenuItem>
                     </Link>
+                    <Link href={"/subscription"}>
+                        <DropdownMenuItem>
+                            <LayoutDashboard className="mr-2 h-4 w-4" />
+                            <span>Subscription</span>
+                        </DropdownMenuItem>
+                    </Link>
                 </DropdownMenuGroup>
                 <DropdownMenuItem onClick={signOut}>
                     <LogOut className="mr-2 h-4 w-4" />

@@ -11,7 +11,8 @@
     "supabase:start": "supabase start",
     "supabase:stop": "supabase stop",
     "supabase:db:reset": "supabase db reset",
-    "typegen": "supabase gen types typescript --local > database.types.ts"
+    "typegen": "supabase gen types typescript --local > database.types.ts",
+    "stripe:listen": "docker run --rm -it --name=stripe -v ~/.config/stripe:/root/.config/stripe stripe/stripe-cli:latest listen --forward-to http://host.docker.internal:3000/stripe/webhook"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
@@ -29,6 +30,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "stripe": "^14.12.0",
     "supabase": "^1.131.4",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7"

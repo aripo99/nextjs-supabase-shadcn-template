@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import Link from "next/link";
-import { LogOut, LayoutDashboard, UserIcon } from "lucide-react";
+import { LogOut, LayoutDashboard, UserIcon, CreditCardIcon } from "lucide-react";
 
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
@@ -42,7 +42,7 @@ function ProfileDropdown() {
                     </Link>
                     <Link href={"/subscription"}>
                         <DropdownMenuItem>
-                            <LayoutDashboard className="mr-2 h-4 w-4" />
+                            <CreditCardIcon className="mr-2 h-4 w-4" />
                             <span>Subscription</span>
                         </DropdownMenuItem>
                     </Link>

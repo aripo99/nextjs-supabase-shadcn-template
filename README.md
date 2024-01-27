@@ -8,6 +8,10 @@ To start your own project from this template, run
 npx create-next-app@latest <project_name_here> --use-np --example https://github.com/aripo99/nextjs-supabase-shadcn-template
 ```
 
+Then change `nextjs-supabase-shadcn-template` with your project name in files like `package.json` etc. 
+
+Finally, create your `.env.development` file and add the required secrets.
+
 To run it locally, start by running the development server:
 
 ```bash
